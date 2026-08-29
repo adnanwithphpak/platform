@@ -1,0 +1,28 @@
+# Guest Post Platform
+
+> Guest Post Platform provides guest posting, blogger outreach, contextual link insertion, content writing, and white-label campaign support for SEO agencies, brands, consultants, and website owners.
+
+The website helps visitors compare guest post packages and request managed editorial outreach. Publisher relevance, available traffic information, content quality, and editorial context are considered alongside third-party authority metrics. The business does not guarantee search rankings.
+
+## Main Pages
+
+- [Home](https://guestpostplatform.com/): Overview of guest posting services, publisher opportunities, and the outreach workflow.
+- [Services](https://guestpostplatform.com/services.html): Guest posting, blogger outreach, link insertion, content writing, white-label campaigns, and reporting.
+- [Pricing](https://guestpostplatform.com/pricing.html): Guest post pricing tiers and custom campaign options.
+- [About](https://guestpostplatform.com/about.html): Business approach, publisher review principles, and editorial quality standards.
+- [Contact](https://guestpostplatform.com/contact.html): Request a quote or discuss a campaign through WhatsApp.
+- [Marketplace](https://guestpostplatform.com/high-da-guest-post-sites/): Publisher selection and quality-review approach.
+- [Managed Guest Posting](https://guestpostplatform.com/guest-posting-service/): Campaign planning, content, outreach, and reporting.
+- [Blogger Outreach](https://guestpostplatform.com/blogger-outreach/): Manual publisher discovery and editorial coordination.
+- [Industries](https://guestpostplatform.com/industries/): Niche and regional guest post pages.
+- [Blog](https://guestpostplatform.com/blog/): Educational guest posting and publisher-vetting guides.
+
+## Business Information
+
+- [Founder LinkedIn](https://www.linkedin.com/in/kamranofficialseo/): Professional profile for founder Kamran.
+- [Detailed AI Context](https://guestpostplatform.com/llms-full.txt): Expanded service, pricing, process, and contact information.
+
+## Optional
+
+- [XML Sitemap](https://guestpostplatform.com/sitemap.xml): Canonical indexable page inventory.
+- [Robots Rules](https://guestpostplatform.com/robots.txt): Crawler access rules.

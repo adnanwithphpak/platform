@@ -1,0 +1,7 @@
+# Local deployment/build artifacts
+guestpostplatform-hostinger.zip
+build-content.php
+
+# OS/editor files
+.DS_Store
+Thumbs.db
