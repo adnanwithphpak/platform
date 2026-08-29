@@ -4,6 +4,27 @@ AddType application/manifest+json .webmanifest
 
 RewriteEngine On
 
+# Redirect legacy file URLs to clean directory URLs.
+RewriteCond %{THE_REQUEST} \s/+services\.html[\s?] [NC]
+RewriteRule ^services\.html$ /services/ [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+pricing\.html[\s?] [NC]
+RewriteRule ^pricing\.html$ /pricing/ [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+about\.html[\s?] [NC]
+RewriteRule ^about\.html$ /about/ [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+contact\.html[\s?] [NC]
+RewriteRule ^contact\.html$ /contact/ [R=301,L]
+
+# Redirect legacy clean routes to the new marketplace architecture.
+RewriteRule ^services/?$ /guest-posting-service/ [R=301,L]
+RewriteRule ^industries/?$ /buy-guest-posts/ [R=301,L]
+RewriteRule ^terms-of-service/?$ /terms-of-services/ [R=301,L]
+RewriteRule ^da-vs-dr-in-guest-posting/?$ /high-da-guest-posts-what-matters-more-than-da/ [R=301,L]
+RewriteRule ^high-da-vs-niche-relevant-guest-post-sites/?$ /high-da-guest-posts-what-matters-more-than-da/ [R=301,L]
+RewriteRule ^white-hat-vs-black-hat-guest-posting/?$ /how-to-buy-guest-posts-safely/ [R=301,L]
+RewriteRule ^guest-post-roi/?$ /guest-post-pricing-guide-seo-agencies/ [R=301,L]
+RewriteRule ^guest-posting-benefits/?$ /guest-posting-service/ [R=301,L]
+RewriteRule ^what-is-guest-posting-in-seo/?$ /guest-posting-service/ [R=301,L]
+
 # Canonical host: HTTPS + non-www. Rules only affect the production domain.
 RewriteCond %{HTTP_HOST} ^www\.guestpostplatform\.com$ [NC]
 RewriteRule ^ https://guestpostplatform.com%{REQUEST_URI} [R=301,L,NE]

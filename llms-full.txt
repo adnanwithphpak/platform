@@ -1,4 +1,4 @@
-# Guest Post Platform — Full Website Context
+﻿# Guest Post Platform â€” Full Website Context
 
 > Guest Post Platform is a guest posting and blogger outreach service founded by Kamran. It supports SEO agencies, online brands, consultants, and website owners with relevant editorial placement campaigns.
 
@@ -14,17 +14,17 @@ Service area: Worldwide
 
 ## Services
 
-- [Guest Posting](https://guestpostplatform.com/services.html): Individual guest post placements selected using topical relevance, available traffic information, authority indicators, editorial context, and budget.
-- [Blogger Outreach](https://guestpostplatform.com/services.html): Managed publisher research, communication, topic planning, content coordination, publication follow-up, and live-link reporting.
-- [Link Insertion](https://guestpostplatform.com/services.html#link-insertion): Contextual citations added to suitable existing editorial content.
-- [Content Writing](https://guestpostplatform.com/services.html): Original content prepared for the target publication and its audience.
-- [White-Label Campaigns](https://guestpostplatform.com/services.html): Agency-friendly fulfillment and reporting.
+- [Guest Posting](https://guestpostplatform.com/services/): Individual guest post placements selected using topical relevance, available traffic information, authority indicators, editorial context, and budget.
+- [Blogger Outreach](https://guestpostplatform.com/services/): Managed publisher research, communication, topic planning, content coordination, publication follow-up, and live-link reporting.
+- [Link Insertion](https://guestpostplatform.com/services/#link-insertion): Contextual citations added to suitable existing editorial content.
+- [Content Writing](https://guestpostplatform.com/services/): Original content prepared for the target publication and its audience.
+- [White-Label Campaigns](https://guestpostplatform.com/services/): Agency-friendly fulfillment and reporting.
 
 ## Pricing
 
-- [Starter — DA 20–40](https://guestpostplatform.com/pricing.html): Listed from USD 45 per post.
-- [Popular — DA 40–60](https://guestpostplatform.com/pricing.html): Listed from USD 95 per post.
-- [Premium — DA 60+](https://guestpostplatform.com/pricing.html): Listed from USD 180 per post.
+- [Starter â€” DA 20â€“40](https://guestpostplatform.com/pricing/): Listed from USD 45 per post.
+- [Popular â€” DA 40â€“60](https://guestpostplatform.com/pricing/): Listed from USD 95 per post.
+- [Premium â€” DA 60+](https://guestpostplatform.com/pricing/): Listed from USD 180 per post.
 - Custom monthly and recurring campaigns are quoted separately.
 
 Prices, publisher availability, traffic estimates, and third-party authority metrics may change. Confirm current campaign details before purchase.
@@ -45,17 +45,17 @@ Prices, publisher availability, traffic estimates, and third-party authority met
 
 ## Contact
 
-- [Contact Page](https://guestpostplatform.com/contact.html): Campaign inquiry form and WhatsApp contact.
+- [Contact Page](https://guestpostplatform.com/contact/): Campaign inquiry form and WhatsApp contact.
 - WhatsApp: +923025820230
 - [Founder LinkedIn](https://www.linkedin.com/in/kamranofficialseo/): Kamran's professional profile.
 
 ## Site Resources
 
 - [Home](https://guestpostplatform.com/)
-- [Services](https://guestpostplatform.com/services.html)
-- [Pricing](https://guestpostplatform.com/pricing.html)
-- [About](https://guestpostplatform.com/about.html)
-- [Contact](https://guestpostplatform.com/contact.html)
+- [Services](https://guestpostplatform.com/services/)
+- [Pricing](https://guestpostplatform.com/pricing/)
+- [About](https://guestpostplatform.com/about/)
+- [Contact](https://guestpostplatform.com/contact/)
 - [Guest Post Marketplace](https://guestpostplatform.com/high-da-guest-post-sites/)
 - [Managed Guest Posting](https://guestpostplatform.com/guest-posting-service/)
 - [Blogger Outreach](https://guestpostplatform.com/blogger-outreach/)
@@ -64,3 +64,4 @@ Prices, publisher availability, traffic estimates, and third-party authority met
 - [Educational Blog](https://guestpostplatform.com/blog/)
 - [XML Sitemap](https://guestpostplatform.com/sitemap.xml)
 - [Robots Rules](https://guestpostplatform.com/robots.txt)
+

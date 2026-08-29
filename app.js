@@ -3,7 +3,7 @@
   nav: [
     ["Home", "/"], ["Marketplace", "/high-da-guest-post-sites/"],
     ["Services", "/guest-posting-service/"], ["Industries", "/industries/"],
-    ["Blog", "/blog/"], ["About", "/about.html"], ["Contact", "/contact.html"]
+    ["Blog", "/blog/"], ["About", "/about/"], ["Contact", "/contact/"]
   ]
 };
 
@@ -17,7 +17,7 @@ function headerMarkup() {
   return `<header class="site-header"><nav class="nav shell">
     <a class="brand" href="/"><img class="brand-logo" src="/assets/images/brand-icon-192.png" alt="Guest Post Platform logo"><span>GuestPostPlatform</span></a>
     <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
-    <div class="nav-links">${links}</div><a class="nav-cta" href="/contact.html">Get Started</a>
+    <div class="nav-links">${links}</div><a class="nav-cta" href="/contact/">Get Started</a>
   </nav></header>`;
 }
 
@@ -25,8 +25,8 @@ function footerMarkup() {
   return `<footer class="site-footer"><div class="shell footer-grid">
     <div class="footer-brand"><a class="brand" href="/"><img class="brand-logo" src="/assets/images/brand-icon-192.png" alt="Guest Post Platform logo"><span>GuestPostPlatform</span></a><p>A guest post marketplace and managed outreach partner for relevant editorial placements.</p></div>
     <div><h4>Services</h4><a href="/high-da-guest-post-sites/">Marketplace</a><a href="/blogger-outreach/">Blogger Outreach</a><a href="/white-label-guest-posting/">White Label</a></div>
-    <div><h4>Explore</h4><a href="/industries/">Industries</a><a href="/blog/">Blog</a><a href="/about.html">About</a><a href="/contact.html">Contact</a></div>
-    <div><h4>Get in touch</h4><a href="#" data-wa>WhatsApp</a><a href="/contact.html">Request a Quote</a><a href="/privacy-policy/">Privacy</a><a href="/terms-of-service/">Terms</a></div>
+    <div><h4>Explore</h4><a href="/industries/">Industries</a><a href="/blog/">Blog</a><a href="/about/">About</a><a href="/contact/">Contact</a></div>
+    <div><h4>Get in touch</h4><a href="#" data-wa>WhatsApp</a><a href="/contact/">Request a Quote</a><a href="/privacy-policy/">Privacy</a><a href="/terms-of-service/">Terms</a></div>
   </div><div class="shell footer-bottom"><span>&copy; 2026 Guest Post Platform. All rights reserved.</span><span>Marketplace &amp; managed blogger outreach</span></div></footer>`;
 }
 

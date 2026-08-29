@@ -1,6 +1,9 @@
 # Local deployment/build artifacts
 guestpostplatform-hostinger.zip
 build-content.php
+rebrand-market.php
+node_modules/
+dist/
 
 # OS/editor files
 .DS_Store
