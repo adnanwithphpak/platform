@@ -41,7 +41,7 @@ function App() {
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:slug" element={<BlogPostPage />} />
         {allPosts.map((post) => (
-          <Route key={post.slug} path={`/${post.slug}`} element={<BlogPostPage />} />
+          <Route key={post.slug} path={`/${post.slug}`} element={<BlogPostPage slug={post.slug} />} />
         ))}
         <Route path="/privacy-policy" element={<PolicyPage policy="privacy-policy" />} />
         <Route path="/terms-of-services" element={<PolicyPage policy="terms-of-services" />} />

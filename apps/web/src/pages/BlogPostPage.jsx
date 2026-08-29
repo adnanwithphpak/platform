@@ -7,8 +7,9 @@ import Header from '@/components/Header.jsx';
 import Footer from '@/components/Footer.jsx';
 import allPosts, { getBlogPostBySlug } from '@/content/blog/index.js';
 
-const BlogPostPage = () => {
-  const { slug } = useParams();
+const BlogPostPage = ({ slug: explicitSlug }) => {
+  const { slug: routeSlug } = useParams();
+  const slug = explicitSlug || routeSlug;
   const navigate = useNavigate();
   const post = getBlogPostBySlug(slug);
   const articleRef = useRef(null);
