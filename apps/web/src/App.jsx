@@ -17,6 +17,7 @@ import allPosts from './content/blog/index.js';
 import SeoLandingPage from './pages/SeoLandingPage.jsx';
 import PolicyPage from './pages/PolicyPage.jsx';
 import CaseStudyPage from './pages/CaseStudyPage.jsx';
+import BestGuestPostPlatformsPage from './pages/BestGuestPostPlatformsPage.jsx';
 import WhatsAppButton from './components/WhatsAppButton.jsx';
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
         <Route path="/privacy-policy" element={<PolicyPage policy="privacy-policy" />} />
         <Route path="/terms-of-services" element={<PolicyPage policy="terms-of-services" />} />
         <Route path="/case-study" element={<CaseStudyPage />} />
+        <Route path="/best-guest-post-platforms" element={<BestGuestPostPlatformsPage />} />
         <Route path="/:slug" element={<SeoLandingPage />} />
       </Routes>
       <WhatsAppButton />

@@ -19,7 +19,8 @@ const staticRoutes = [
   { path: '/blog', priority: '0.8', changefreq: 'weekly' },
   { path: '/privacy-policy', priority: '0.3', changefreq: 'yearly' },
   { path: '/terms-of-services', priority: '0.3', changefreq: 'yearly' },
-  { path: '/case-study', priority: '0.7', changefreq: 'monthly' }
+  { path: '/case-study', priority: '0.7', changefreq: 'monthly' },
+  { path: '/best-guest-post-platforms', priority: '0.9', changefreq: 'monthly', lastmod: '2026-08-30' }
 ];
 
 async function getLandingPages() {

@@ -181,8 +181,8 @@ const HomePage = () => {
   return (
     <>
       <PageSeo
-        title="Guest Post Platform & Blogger Outreach | Guest Post Platform"
-        description="Browse high DA guest post opportunities by niche, traffic and price, or request managed blogger outreach, content and transparent placement reporting."
+        title="Guest Post Platform: Browse 6,000+ Publisher Opportunities"
+        description="Use Guest Post Platform to browse niche-relevant publisher opportunities by authority, traffic and price, with optional blogger outreach and content support."
         path="/"
         imageAlt="SEO growth illustration for guest post and link building campaigns"
         schema={homeSchema}
@@ -343,6 +343,7 @@ const HomePage = () => {
             <div className="flex flex-wrap gap-5">
               <Link to="/buy-guest-posts" className="inline-flex items-center font-semibold text-blue-700 hover:text-blue-900">Explore guest post opportunities<ArrowRight className="ml-2 w-5 h-5" /></Link>
               <Link to="/pricing" className="inline-flex items-center font-semibold text-slate-700 hover:text-slate-950">Review pricing options<ArrowRight className="ml-2 w-5 h-5" /></Link>
+              <Link to="/best-guest-post-platforms" className="inline-flex items-center font-semibold text-slate-700 hover:text-slate-950">Compare guest post platform models<ArrowRight className="ml-2 w-5 h-5" /></Link>
             </div>
           </div>
         </div>

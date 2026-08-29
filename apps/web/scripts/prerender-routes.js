@@ -22,7 +22,7 @@ const llmsTxtPath = path.join(distDir, 'llms.txt');
 const SITE_URL = 'https://guestpostplatform.com';
 
 const STATIC_PAGES = [
-	{ path: '/', title: 'Guest Post Platform & Blogger Outreach | Guest Post Platform', description: 'Browse high DA guest post opportunities by niche, traffic and price, or request managed blogger outreach, content and transparent placement reporting.' },
+	{ path: '/', title: 'Guest Post Platform: Browse 6,000+ Publisher Opportunities', description: 'Use Guest Post Platform to browse niche-relevant publisher opportunities by authority, traffic and price, with optional blogger outreach and content support.' },
 	{ path: '/buy-guest-posts', title: 'Buy Guest Posts | Vetted Publisher Marketplace', description: 'Compare guest post publisher opportunities by niche, DA, DR, estimated traffic, quality and price. Request a relevant, editorially reviewed placement.' },
 	{ path: '/blogger-outreach', title: 'Blogger Outreach Services | Relevant Publisher Research', description: 'Get managed blogger outreach with publisher research, personalized pitches, opportunity approval, original content and transparent placement reporting.' },
 	{ path: '/link-insertion', title: 'Contextual Link Insertion Services | Relevant Niche Edits', description: 'Request contextual link insertions in relevant existing articles, with publisher review, destination-page matching and transparent reporting.' },
@@ -34,6 +34,7 @@ const STATIC_PAGES = [
 	{ path: '/privacy-policy', title: 'Privacy Policy | Guest Post Platform', description: 'Learn what information Guest Post Platform collects, why it is used, how it is protected and what choices you have.' },
 	{ path: '/terms-of-services', title: 'Terms of Service | Guest Post Platform', description: 'Review the service scope, approvals, payment terms and responsibilities that apply when working with Guest Post Platform.' },
 	{ path: '/case-study', title: 'Guest Posting Case Study | Campaign Method and Reporting', description: 'See how a relevance-led guest posting campaign is planned, quality-checked and measured without inflated SEO promises.' },
+	{ path: '/best-guest-post-platforms', title: 'Best Guest Post Platforms: Marketplace Comparison Guide', description: 'Compare guest post platforms by publisher transparency, relevance, editorial quality, pricing, fulfilment and reporting before selecting a marketplace.' },
 ];
 
 async function getLandingPages() {
