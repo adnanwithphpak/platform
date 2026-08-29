@@ -1,7 +1,7 @@
 const nichePage = (slug, name, audience, topics, review, market = 'global') => ({
   slug,
   title: `${name} Guest Posting Service | Relevant Editorial Links`,
-  description: `Earn relevant ${name.toLowerCase()} backlinks through manual publisher research, original content and transparent placement checks for ${audience}.`,
+  description: `${name} guest posting with relevant publisher research, original content and transparent placement reporting for qualified campaigns.`,
   eyebrow: `${name} link building`,
   heading: `${name} Guest Posts Built for Relevance, Not Just Metrics`,
   intro: `Reach readers who already care about ${topics[0].toLowerCase()}, ${topics[1].toLowerCase()} and ${topics[2].toLowerCase()}. We research real publications, match each pitch to the site’s audience and share placement details before content moves forward.`,
@@ -20,7 +20,7 @@ const nichePage = (slug, name, audience, topics, review, market = 'global') => (
 const servicePage = (slug, title, keyword, audience, outcome, differentiator) => ({
   slug,
   title,
-  description: `${keyword} with manual research, clear quality checks and transparent reporting. Built for ${audience}.`,
+  description: `${keyword} with manual publisher research, relevant content, clear quality checks and transparent campaign reporting.`,
   eyebrow: keyword,
   heading: `${keyword} That Supports Sustainable Organic Growth`,
   intro: `${outcome} Every campaign starts with the pages you need to grow, the audience you need to reach and the risks you want to avoid—not a preselected list of sites.`,

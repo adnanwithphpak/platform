@@ -173,6 +173,15 @@ const BloggerOutreachPage = () => {
           </div>
         </section>
 
+        <section className="py-16 bg-white border-b border-slate-200">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-bold text-slate-900 mb-5">Manual outreach based on audience fit</h2>
+            <p className="text-lg text-slate-700 leading-relaxed mb-5">A useful outreach campaign starts with the destination page and the people it should help. We define relevant themes, research publications that already serve that audience and review recent articles, organic visibility and outbound-link patterns. A high authority score alone does not qualify a site, and a publisher is never represented as approved until its editor confirms the opportunity.</p>
+            <p className="text-slate-700 leading-relaxed mb-5">Each pitch is adapted to the publication rather than sent as an unrelated bulk template. Proposed topics must add something useful to the site, fit its editorial style and create a genuine reason to cite the client resource. The publisher keeps final control over acceptance, wording, link attributes, publication date and any required sponsored disclosure.</p>
+            <p className="text-slate-700 leading-relaxed">Clients receive the proposed site and terms for approval, followed by the live URL and a placement check. We can report completed outreach, responses and verified links, but we do not guarantee rankings, referral traffic or a particular reply rate. Those outcomes also depend on content quality, competition, technical SEO and the publisher's audience.</p>
+          </div>
+        </section>
+
         {/* Process Steps */}
         <section className="py-20 bg-slate-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -72,21 +72,14 @@ const SubmitGuestPostPage = () => {
       return;
     }
 
-    // Store in localStorage
-    const submissions = JSON.parse(localStorage.getItem('guestPostSubmissions') || '[]');
-    const newSubmission = {
-      ...formData,
-      id: Date.now(),
-      submittedAt: new Date().toISOString(),
-    };
-    submissions.push(newSubmission);
-    localStorage.setItem('guestPostSubmissions', JSON.stringify(submissions));
+    const message = encodeURIComponent(`Publisher application\nWebsite: ${formData.blogName}\nNiche: ${formData.niche}\nDA: ${formData.da}\nPA: ${formData.pa || 'Not provided'}\nMonthly traffic: ${formData.monthlyTraffic || 'Not provided'}\nPrice: ${formData.pricing || 'Not provided'}\nGuidelines: ${formData.contentGuidelines || 'Not provided'}\nContact email: ${formData.contactEmail}`);
+    window.open(`https://wa.me/923025820230?text=${message}`, '_blank', 'noopener,noreferrer');
 
     // Show success message
     setSubmitted(true);
     toast({
       title: "Submission Successful!",
-      description: "Thank you for submitting your guest posting opportunity. We'll review it and get back to you soon.",
+      description: "WhatsApp has opened with your application. Please send the prepared message to complete submission.",
     });
 
     // Reset form
@@ -134,6 +127,16 @@ const SubmitGuestPostPage = () => {
             >
               Join our network of high-quality publishers and monetize your blog with guest posting opportunities
             </motion.p>
+          </div>
+        </section>
+
+        <section className="bg-white border-b border-slate-200 py-12">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-bold text-slate-900 mb-5">Apply as a real editorial publisher</h2>
+            <p className="text-lg text-slate-700 leading-relaxed mb-4">Guest Post Platform is a marketplace for matching advertisers and agencies with independent publishers. An application is a request for review, not an automatic listing. Please provide accurate website, niche, traffic, pricing and contact information so we can understand the audience and publishing terms before presenting any opportunity to a buyer.</p>
+            <p className="text-slate-700 leading-relaxed mb-4">Quality review considers original content, topical focus, recent publishing activity, visible ownership, search visibility and the pattern of existing outbound links. We may ask for analytics evidence or editorial guidelines. Publishers always retain the right to edit or reject an article, request disclosure and decide which link attributes are appropriate.</p>
+            <p className="text-slate-700 leading-relaxed">Submitting the form opens WhatsApp with your details; press send there to complete the application. Do not include passwords or private analytics access. Acceptance, order volume and earnings are not guaranteed, and inaccurate metrics can lead to removal from the marketplace.</p>
+            <p className="text-slate-700 leading-relaxed mt-4">Before applying, make sure your public contact information and recent articles are accessible without a login. State whether you accept new articles, contextual edits or both, and disclose restricted topics, turnaround time and revision rules. Clear terms reduce unsuitable enquiries and help both parties approve work without avoidable delays.</p>
           </div>
         </section>
 
@@ -325,6 +328,19 @@ const SubmitGuestPostPage = () => {
               </form>
             )}
           </motion.div>
+
+          <div className="mt-12 grid md:grid-cols-2 gap-6">
+            <article className="bg-white border border-slate-200 rounded-2xl p-7">
+              <h2 className="text-2xl font-bold text-slate-900 mb-4">Publisher eligibility</h2>
+              <p className="text-slate-600 leading-relaxed mb-4">We look for an active website with a clear editorial topic, original indexed articles, a real audience and transparent ownership or contact details. Authority metrics are reference points, not automatic approval.</p>
+              <p className="text-slate-600 leading-relaxed">Sites built mainly to sell links, copied content, misleading traffic claims, malware, adult or illegal material, and unrelated mass publishing may be rejected.</p>
+            </article>
+            <article className="bg-white border border-slate-200 rounded-2xl p-7">
+              <h2 className="text-2xl font-bold text-slate-900 mb-4">What happens after you apply</h2>
+              <p className="text-slate-600 leading-relaxed mb-4">The prepared application opens in WhatsApp; you must press send to complete it. We then review niche fit, visible content quality, estimated traffic patterns, publishing terms and link attributes.</p>
+              <p className="text-slate-600 leading-relaxed">Listing is not guaranteed. Publishers retain final editorial control, and paid or sponsored links should use the disclosure attributes required by the publisher and applicable search-engine guidelines.</p>
+            </article>
+          </div>
 
           {/* Benefits Section */}
           <motion.div

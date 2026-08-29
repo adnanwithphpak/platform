@@ -2,8 +2,16 @@
 guestpostplatform-hostinger.zip
 build-content.php
 rebrand-market.php
+seo-audit.php
 node_modules/
 dist/
+.chrome-prerender-profile/
+.chrome-debug-profile/
+.chrome-debug2/
+.prerender-test.html
+.prerender-test.err
+.prerender-output.html
+.prerender-error.log
 
 # OS/editor files
 .DS_Store

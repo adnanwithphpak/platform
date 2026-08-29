@@ -11,7 +11,6 @@ export const post = {
   metaDescription: 'Compare guest posts vs link insertions, pros and cons, costs, and when to use each for SEO growth.',
   content: (
     <div className="space-y-6 text-slate-700 leading-relaxed">
-      <h1 className="text-4xl font-bold text-slate-900 mb-6">Guest Post vs Link Insertion: Which One Works Better</h1>
       
       <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Introduction</h2>
       <p>

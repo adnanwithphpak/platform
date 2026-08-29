@@ -11,7 +11,6 @@ export const post = {
   metaDescription: 'A clear guest post pricing guide for SEO agencies, what impacts cost, what to avoid, and how to choose packages.',
   content: (
     <div className="space-y-6 text-slate-700 leading-relaxed">
-      <h1 className="text-4xl font-bold text-slate-900 mb-6">Guest Post Pricing Guide for SEO Agencies</h1>
       
       <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Introduction</h2>
       <p>

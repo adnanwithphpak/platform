@@ -167,6 +167,15 @@ const LinkInsertionPage = () => {
           </div>
         </section>
 
+        <section className="py-16 bg-white border-b border-slate-200">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-bold text-slate-900 mb-5">When an existing article is a suitable fit</h2>
+            <p className="text-lg text-slate-700 leading-relaxed mb-5">A contextual insertion only makes sense when the destination genuinely helps a reader understand or act on the surrounding topic. Before proposing an article, we compare search intent, subject coverage, audience, publication date and the existing paragraph. We avoid forcing a commercial anchor into unrelated copy or treating third-party authority metrics as proof of quality.</p>
+            <p className="text-slate-700 leading-relaxed mb-5">The publisher decides whether an update is editorially acceptable. Its current price, link attribute, disclosure requirements and replacement or monitoring period are confirmed before approval. Paid placements should be identified with the appropriate sponsored or nofollow treatment when required; a dofollow link or permanent placement is never assumed merely because an article is already live.</p>
+            <p className="text-slate-700 leading-relaxed">After publication we verify the exact URL, surrounding text, destination, anchor and link attribute. Existing pages can later be edited, redirected or removed by their owners, so reporting records what was checked and when. Link insertion may save writing time, but it does not guarantee indexing, rankings or traffic and should support—rather than replace—strong content and technical SEO.</p>
+          </div>
+        </section>
+
         {/* Service Overview */}
         <section className="py-20 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

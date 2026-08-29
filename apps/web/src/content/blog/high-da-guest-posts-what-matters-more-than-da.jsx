@@ -11,7 +11,6 @@ export const post = {
   metaDescription: 'DA is not everything. Learn what matters more than DA when buying guest posts and backlinks.',
   content: (
     <div className="space-y-6 text-slate-700 leading-relaxed">
-      <h1 className="text-4xl font-bold text-slate-900 mb-6">Guest Post Platform: What Matters More Than DA</h1>
       
       <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Introduction</h2>
       <p>

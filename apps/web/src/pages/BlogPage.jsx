@@ -64,6 +64,23 @@ const BlogPage = () => {
         </section>
 
         {/* Search and Filter */}
+        <section className="bg-white border-b border-slate-200">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center">
+            <h2 className="text-3xl font-bold text-slate-900 mb-4">Practical guides for safer guest post decisions</h2>
+            <p className="text-lg text-slate-600 leading-relaxed mb-4">
+              These guides explain how to compare publishers, assess topical relevance, plan natural anchors and document a campaign. They are written for site owners, in-house marketers and agencies that want evidence-based decisions instead of relying on a single third-party authority score.
+            </p>
+            <p className="text-slate-600 leading-relaxed">
+              Start with the buying-safety checklist, then compare <Link className="text-blue-700 font-semibold hover:underline" to="/guest-post-vs-link-insertion">guest posts and link insertions</Link> or review our <Link className="text-blue-700 font-semibold hover:underline" to="/guest-post-pricing-guide-seo-agencies">pricing guide</Link>. Paid placements remain subject to publisher approval and appropriate link disclosure.
+            </p>
+            <h2 className="text-2xl font-bold text-slate-900 mt-9 mb-4">How to use this resource library</h2>
+            <p className="text-slate-600 leading-relaxed mb-4">Use the articles as decision frameworks, not promises of a specific ranking result. Record why a publisher matches your audience, examine more than DA or DR, review estimated traffic by country and topic, and confirm the live article and link terms. A strong placement cannot compensate for a weak destination page, poor search intent or serious technical problems.</p>
+            <p className="text-slate-600 leading-relaxed">Our authors distinguish verifiable deliverables from outcomes influenced by search systems, competitors and user demand. Guides are reviewed when our process changes; dates and author information on each article help readers judge context. For campaign-specific questions, use the <Link className="text-blue-700 font-semibold hover:underline" to="/contact">contact page</Link> rather than assuming a general example applies to every website.</p>
+            <p className="text-slate-600 leading-relaxed mt-4">A practical review should also check whether a proposed article overlaps existing content, whether the destination is indexable and useful, and whether the anchor reads naturally in context. Keep screenshots or exports of approved terms and recheck live placements periodically. This makes reporting more dependable for clients and helps identify publisher changes without overstating what a backlink can achieve.</p>
+            <p className="text-slate-600 leading-relaxed mt-4">Relevance and reader value remain the starting point for every guide.</p>
+          </div>
+        </section>
+
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="max-w-2xl mx-auto relative">
             <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-slate-400 w-5 h-5" />

@@ -11,7 +11,6 @@ export const post = {
   metaDescription: 'Learn how to buy guest posts safely in 2026, avoid spam, choose real sites, and get better rankings with white hat outreach.',
   content: (
     <div className="space-y-6 text-slate-700 leading-relaxed">
-      <h1 className="text-4xl font-bold text-slate-900 mb-6">How to Buy Guest Posts Safely in 2026</h1>
       
       <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Introduction</h2>
       <p>

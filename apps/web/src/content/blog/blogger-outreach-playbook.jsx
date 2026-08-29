@@ -11,7 +11,6 @@ export const post = {
   metaDescription: 'A practical blogger outreach playbook to earn real links, improve reply rates, and build authority without spam.',
   content: (
     <div className="space-y-6 text-slate-700 leading-relaxed">
-      <h1 className="text-4xl font-bold text-slate-900 mb-6">Blogger Outreach That Actually Works: A Step by Step Playbook</h1>
       
       <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Introduction</h2>
       <p>
