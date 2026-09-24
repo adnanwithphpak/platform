@@ -1,0 +1,201 @@
+import React from "react";
+
+const websites = [
+  {
+    name: "TechBullion.com",
+    category: "Technology & Business",
+    status: "Available",
+    da: 63,
+    dr: 79,
+    traffic: "22.1K",
+    price: "$150",
+  },
+  {
+    name: "TheHypeMagazine.com",
+    category: "Technology & Digital Trends",
+    status: "Upfront",
+    da: 66,
+    dr: 72,
+    traffic: "5.5K",
+    price: "$120",
+  },
+  {
+    name: "GoodMenProject.com",
+    category: "Technology & Innovation",
+    status: "Upfront",
+    da: 82,
+    dr: 79,
+    traffic: "27.6K",
+    price: "$250",
+  },
+  {
+    name: "BigNewsNetwork.com",
+    category: "Technology News",
+    status: "Available",
+    da: 66,
+    dr: 77,
+    traffic: "1.7M",
+    price: "$300",
+  },
+  {
+    name: "ThePinnacleList.com",
+    category: "Technology & Business",
+    status: "Available",
+    da: 60,
+    dr: 58,
+    traffic: "12.4K",
+    price: "$100",
+  },
+];
+
+export default function TechnologyGuestPosts() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+
+      {/* Hero */}
+      <section className="bg-black text-white py-20 px-6 text-center">
+        <h1 className="text-5xl font-bold">
+          Technology Guest Post Marketplace
+        </h1>
+
+        <p className="mt-5 text-gray-300 text-lg">
+          Publish your technology content on trusted websites
+          and build powerful backlinks.
+        </p>
+
+        <div className="mt-8 max-w-xl mx-auto">
+          <input
+            className="w-full rounded-xl px-5 py-4 text-black"
+            placeholder="Search technology websites..."
+          />
+        </div>
+      </section>
+
+
+      <div className="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-4 gap-8">
+
+
+        {/* Filters */}
+        <aside className="bg-white rounded-2xl p-6 shadow">
+
+          <h2 className="font-bold text-xl mb-5">
+            Filters
+          </h2>
+
+          <label className="block mb-3">
+            Category
+          </label>
+
+          <select className="w-full border p-3 rounded-lg">
+            <option>Technology</option>
+          </select>
+
+
+          <label className="block mt-5 mb-3">
+            DR Range
+          </label>
+
+          <select className="w-full border p-3 rounded-lg">
+            <option>50+</option>
+            <option>70+</option>
+            <option>80+</option>
+          </select>
+
+
+          <label className="block mt-5 mb-3">
+            Traffic
+          </label>
+
+          <select className="w-full border p-3 rounded-lg">
+            <option>10K+</option>
+            <option>100K+</option>
+            <option>1M+</option>
+          </select>
+
+        </aside>
+
+
+
+        {/* Website Cards */}
+        <main className="md:col-span-3 grid md:grid-cols-2 gap-6">
+
+          {websites.map((site,index)=>(
+
+            <div
+              key={index}
+              className="bg-white rounded-2xl shadow p-6 hover:shadow-xl transition"
+            >
+
+              <div className="flex justify-between">
+
+                <h3 className="text-xl font-bold">
+                  {site.name}
+                </h3>
+
+                <span className="text-sm bg-green-100 text-green-700 px-3 py-1 rounded-full">
+                  {site.status}
+                </span>
+
+              </div>
+
+
+              <p className="text-gray-500 mt-3">
+                {site.category}
+              </p>
+
+
+              <div className="grid grid-cols-3 gap-3 mt-6">
+
+
+                <div className="bg-gray-100 p-3 rounded-xl text-center">
+                  <b>{site.da}</b>
+                  <p className="text-xs">
+                    DA
+                  </p>
+                </div>
+
+
+                <div className="bg-gray-100 p-3 rounded-xl text-center">
+                  <b>{site.dr}</b>
+                  <p className="text-xs">
+                    DR
+                  </p>
+                </div>
+
+
+                <div className="bg-gray-100 p-3 rounded-xl text-center">
+                  <b>{site.traffic}</b>
+                  <p className="text-xs">
+                    Traffic
+                  </p>
+                </div>
+
+
+              </div>
+
+
+              <div className="flex justify-between items-center mt-6">
+
+                <span className="text-2xl font-bold">
+                  {site.price}
+                </span>
+
+
+                <button className="bg-black text-white px-5 py-3 rounded-xl">
+                  View Details
+                </button>
+
+              </div>
+
+
+            </div>
+
+          ))}
+
+        </main>
+
+      </div>
+
+    </div>
+  );
+}
